@@ -17,19 +17,19 @@ void ft_bzero(void *s, size_t n)
     }
     if (n & 4)
     {
-        int *is = s;
+        int *is = (int*)s;
         *is++ = l;
         s = is;
     }
     if (n & 2)
     {
-    	short *ss = s;
+    	short *ss = (short*)s;
     	*ss++ = l;
 		s = ss;
 	}
 	if (n & 1)
     {
-		char *cs = s;
+		char *cs = (char*)s;
 		*cs = l;
 	}
 }
