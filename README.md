@@ -12,3 +12,13 @@
 - [ ] memmove
 - [ ] memchr
 - [x] memcmp
+
+**ctype.h (2/7)**
+
+- [x] isalpha
+- [ ] isdigit
+- [ ] isalnum
+- [x] isascii
+- [ ] isprint
+- [ ] toupper
+- [ ] tolower
