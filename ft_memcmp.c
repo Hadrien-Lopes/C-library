@@ -9,10 +9,15 @@ int ft_memcmp(const void *s1, const void *s2, size_t n)
 	if (!n)
 		return (0);
 	count = n >> 3;
-	if (count)
+	if (count || n > 4)
 	{
 		long *ls1 = (long*)s1;
 		long *ls2 = (long*)s2;
+		if (count == 0 && (*ls1 != *ls2)) //case of n = 5, 6 or 7
+		{
+			xs1 = (void*)ls1;
+			xs2 = (void*)ls2;
+		}
 		for (; count; count--)
 		{
 			if (*ls1 != *ls2)
@@ -30,7 +35,7 @@ int ft_memcmp(const void *s1, const void *s2, size_t n)
 		int *is1 = (int*)s1;
 		int *is2 = (int*)s2;
 		
-		if (is1 != is2)
+		if (*is1 != *is2)
 		{
 			xs1 = (void*)is1;
 			xs2 = (void*)is2;
@@ -41,7 +46,7 @@ int ft_memcmp(const void *s1, const void *s2, size_t n)
 		short *ss1 = (short*)s1;
 		short *ss2 = (short*)s2;
 
-		if (ss1 != ss2)
+		if (*ss1 != *ss2)
 		{
 			xs1 = (void*)ss1;
 			xs2 = (void*)ss2;
@@ -52,8 +57,8 @@ int ft_memcmp(const void *s1, const void *s2, size_t n)
 	{
 		char *cs1 = (char*)s1;
 		char *cs2 = (char*)s2;
-		
-		if (cs1 != cs2)
+
+		if (*cs1 != *cs2)
 		{
 			xs1 = (void*)cs1;
 			xs2 = (void*)cs2;
@@ -91,9 +96,10 @@ int ft_memcmp(const void *s1, const void *s2, size_t n)
 		char *dcs1 = (char*)xs1;
 		char *dcs2 = (char*)xs2;
 		if (*dcs1 != *dcs2)
-			return ((int)*dcs1 - (int)*dcs2);
+			return ((unsigned char)*dcs1 - (unsigned char)*dcs2);
 		else
-			return (((int)*(++dcs1)) - ((int)*(++dcs2)));
+			return (((unsigned char)*(++dcs1)) - ((unsigned char)*(++dcs2)));
 	}
 	return (0);
 }
+

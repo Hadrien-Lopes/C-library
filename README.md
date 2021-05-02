@@ -4,11 +4,11 @@
 
 - [x] bzero
 
-**string.h (2/6)**
+**string.h (3/6)**
 
 - [x] memset
 - [x] memcpy
 - [ ] memccpy
 - [ ] memmove
 - [ ] memchr
-- [ ] memcmp
+- [x] memcmp
