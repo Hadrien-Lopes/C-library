@@ -1,6 +1,6 @@
 # C-library
 
-##PART 1
+## PART 1
 
 **strings.h (1/1)**
 
