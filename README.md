@@ -13,7 +13,7 @@
 - [ ] memchr
 - [x] memcmp
 
-**ctype.h (2/7)**
+**ctype.h (3/7)**
 
 - [x] isalpha
 - [x] isdigit
