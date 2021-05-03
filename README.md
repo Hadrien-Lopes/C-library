@@ -16,7 +16,7 @@
 **ctype.h (2/7)**
 
 - [x] isalpha
-- [ ] isdigit
+- [x] isdigit
 - [ ] isalnum
 - [x] isascii
 - [ ] isprint
