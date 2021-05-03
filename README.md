@@ -1,10 +1,12 @@
 # C-library
 
+##PART 1
+
 **strings.h (1/1)**
 
 - [x] bzero
 
-**string.h (3/6)**
+**string.h (6/19)**
 
 - [x] memset
 - [x] memcpy
@@ -12,6 +14,24 @@
 - [ ] memmove
 - [ ] memchr
 - [x] memcmp
+
+- [x] strlen
+- [x] strdup
+- [x] strcpy
+- [ ] strncpy
+- [ ] strcat
+- [ ] strncat
+- [ ] strlcat
+- [ ] strchr
+- [ ] strrchr
+- [ ] strstr
+- [ ] strnstr
+- [ ] strcmp
+- [ ] strncmp
+
+
+**stdlib.h (0/1)**
+- [ ] atoi
 
 **ctype.h (3/7)**
 
@@ -22,3 +42,5 @@
 - [ ] isprint
 - [ ] toupper
 - [ ] tolower
+
+**total: 10/28**
