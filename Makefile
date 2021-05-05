@@ -11,7 +11,15 @@ SRCS = 	ft_memset.c \
 		ft_isdigit.c \
 		ft_isascii.c \
 		ft_memalloc.c \
-		ft_memdel.c
+		ft_memdel.c \
+		ft_strnew.c \
+		ft_strdel.c \
+		ft_lstnew.c \
+		ft_lstdelone.c \
+		ft_lstdel.c \
+		ft_lstadd.c \
+		ft_lstiter.c
+		#ft_lstmap.c
 CC = gcc -Wall -Wextra -Werror
 CFLAGS = -I .libft.h
 OBJ = $(SRCS:.c=.o)
