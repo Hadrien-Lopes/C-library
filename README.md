@@ -85,4 +85,4 @@
 
 **total part 3: 0/6**
 
-## Total all: 18/58 (![Progress](https://progress-bar.dev/37/))
+## Total all: 20/58 (![Progress](https://progress-bar.dev/37/))
