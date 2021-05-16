@@ -3,7 +3,7 @@
 void *ft_memset(void *b, int c, size_t len)
 {
 	void   *xb = b;
-	long   lc = c;
+	long   lc = c; //can be converted to an unsigned char (1 byte) and ignore line 11
 	size_t count;
 
 	if (!len)

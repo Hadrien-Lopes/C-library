@@ -2,9 +2,9 @@
 
 void *ft_memalloc(size_t size)
 {
-	void *x;
+	void *vp;
 
-	if ((x = malloc(size)))
-		ft_bzero(x, size);
-	return (x);
+	if ((vp = malloc(size)))
+		ft_bzero(vp, size);
+	return (vp);
 }

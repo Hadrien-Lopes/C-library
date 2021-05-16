@@ -33,17 +33,17 @@
 **stdlib.h (0/1)**
 - [ ] atoi
 
-**ctype.h (3/7)**
+**ctype.h (7/7)**
 
 - [x] ft_isalpha
 - [x] ft_isdigit
-- [ ] ft_isalnum
+- [x] ft_isalnum
 - [x] ft_isascii
-- [ ] ft_isprint
-- [ ] ft_toupper
-- [ ] ft_tolower
+- [x] ft_isprint
+- [x] ft_toupper
+- [x] ft_tolower
 
-**total part 1: 10/28**
+**total part 1: 14/28**
 
 ### PART 2
 
@@ -63,16 +63,16 @@
 - [ ] ft_strtrim
 - [ ] ft_strsplit
 - [ ] ft_itoa
-- [ ] ft_putchar
+- [x] ft_putchar
 - [ ] ft_putstr
 - [ ] ft_putendl
 - [ ] ft_putnbr
-- [ ] ft_putchar_fd
+- [x] ft_putchar_fd
 - [ ] ft_putstr_fd
 - [ ] ft_putendl_fd
 - [ ] ft_putnbr_fd
 
-**total part 2: 4/24**
+**total part 2: 6/24**
 
 ### PART BONUS
 
@@ -85,4 +85,4 @@
 
 **total part 3: 0/6**
 
-## Total all: 14/58 (![Progress](https://progress-bar.dev/25/))
+## Total all: 18/58 (![Progress](https://progress-bar.dev/37/))
