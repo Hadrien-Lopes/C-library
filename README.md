@@ -6,12 +6,12 @@
 
 - [x] ft_bzero
 
-**string.h (6/19)**
+**string.h (7/19)**
 
 - [x] ft_memset
 - [x] ft_memcpy
 - [ ] ft_memccpy
-- [ ] ft_memmove
+- [x] ft_memmove
 - [ ] ft_memchr
 - [x] ft_memcmp
 
@@ -43,7 +43,7 @@
 - [x] ft_toupper
 - [x] ft_tolower
 
-**total part 1: 14/28**
+**total part 1: 15/28**
 
 ### PART 2
 
@@ -64,15 +64,15 @@
 - [ ] ft_strsplit
 - [ ] ft_itoa
 - [x] ft_putchar
-- [ ] ft_putstr
-- [ ] ft_putendl
+- [x] ft_putstr
+- [x] ft_putendl
 - [ ] ft_putnbr
 - [x] ft_putchar_fd
-- [ ] ft_putstr_fd
-- [ ] ft_putendl_fd
+- [x] ft_putstr_fd
+- [x] ft_putendl_fd
 - [ ] ft_putnbr_fd
 
-**total part 2: 6/24**
+**total part 2: 10/24**
 
 ### PART BONUS
 
@@ -85,4 +85,4 @@
 
 **total part 3: 0/6**
 
-## Total all: 20/58 (![Progress](https://progress-bar.dev/37/))
+## Total all: 25/58 (![Progress](https://progress-bar.dev/43/))
